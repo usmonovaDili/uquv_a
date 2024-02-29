@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+django = "~=5.0.2"
 pillow = "*"
 rest-framework-simplejwt = "*"
 djangorestframework-simplejwt = "*"
-djangorestframework = "*"
+djangorestframework = "~=3.14.0"
 drf-yasg = "*"
 
 [dev-packages]
